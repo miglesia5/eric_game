@@ -104,7 +104,7 @@ function updatePlayer(dt, $container) {
 
 function createLaser($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/laser-blue-1.png";
+  $element.src = "img/laser-red-5.png";
   $element.className = "laser";
   $container.appendChild($element);
   const laser = { x, y, $element };
